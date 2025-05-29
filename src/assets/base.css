@@ -1,0 +1,16 @@
+:root{
+  --tabbar: #d0d0d0;
+  --tab-hover: #ffffff;
+  --def-font: #6A6A6A;
+  --add: #e6e6e6;
+  --add-hover: #f0f0f0;
+}
+
+*{
+  font-family: 'pp object sans';
+}
+
+body{
+    background-color: #1e1e1e;
+
+}
