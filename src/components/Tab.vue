@@ -1,28 +1,50 @@
 <script>
 export default {
   name: 'Tab',
-  props: ['id', 'content']
+  props: ['id', 'content','property'],
+  data: function(){
+    return {
+      propertyIcon: ["fa-pie-chart","fa-table","fa-exclamation-circle"]
+    }
+
+  },  
+  computed: {
+  propertyNumber() {
+    return this.property === 'chart' ? 0 : this.property === 'excel'? 1 : 2;
+  }
+},
+  methods: {
+      getUrl(url){
+        return new URL(url, import.meta.url).href
+      },
+    }
 };
 </script>
 
 <template>
   <div class="tab">
-    <img src="../assets/shopping-cart.svg" width="15px" height="15px" background-color="inherit"/>
+    <!-- <img src="../assets/shopping-cart.svg" width="15px" height="15px" background-color="inherit"/> -->
+    <!-- <img :src="getUrl(propertyIcon[propertyNumber])" width="15px" height="15px" background-color="inherit"/> -->
+    <i :class="`fa ${propertyIcon[propertyNumber]}`" width="15px" height="15px" aria-hidden="true"></i>
 
     <span>{{ content }}</span>
-    <button 
+
+      <button 
       id="closeBtn" 
       aria-label="Close tab"
       tabindex="-1"
       @click.stop="$emit('close', id)"
       @keydown.stop
       @mousedown.stop
+
+
     >×</button>
+
+
   </div>
 </template>
 
 <style scoped>
-
 
 .tab {
   padding: 10px;

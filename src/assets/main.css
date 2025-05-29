@@ -5,16 +5,32 @@
   align-items: center;
   margin: 0 5px;
   font-size: 20px;
-  color: #f0f0f0;
+  color: #1d1d1d;
   min-width: 30px;
   min-height: 30px;
-  border-radius: 100%;
-  background-color: #3b3b3b;
+  border: 0;
+  border-radius: 10px;
+  background-color: #afafaf;
+  cursor: pointer;
+}
+
+#tabOverflowBtn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 20px;
+  color: #1d1d1d;
+  min-width: 30px;
+  min-height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #afafaf;
   cursor: pointer;
 }
 
 #addTab:hover{
-  background-color: #4b4b4b;
+  background-color: #c0c0c0;
 }
 
 span{
@@ -32,13 +48,13 @@ span{
 }
 
 .tabs-wrapper {
+  margin-right: 50%;
   display: flex;
   background-color: inherit;
   
 }
 
 .tab-wrapper.dragging {
-  transition: 0.4s;
   opacity: 0.001;
 }
 
@@ -51,11 +67,12 @@ span{
 
 .tab {
   margin-left: -1px;
+  gap: 12px;
   font-size: 14px;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  width: 120px;
+  width: fit-content;
   max-height: fit-content;
   min-height: 15px;
   padding: 5px 15px;
@@ -134,6 +151,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*----------------------------------*/
+.tab-wrapper:focus .tab i{
+  color: dodgerblue;
+}
 .tab-wrapper:focus .tab{
   background-color: #ffffff; 
   color: black;
@@ -156,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #addTab:active {
-  background-color: #464646;
+  background-color: #afafaf;
 }
 
 .sr-only {
