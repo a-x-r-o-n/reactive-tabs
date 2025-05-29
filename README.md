@@ -15,9 +15,9 @@ A modern, drag-and-drop-enabled, keyboard-accessible Tabbar component inspired b
 
 ---
 
-> 🎓 **Project by Aaron Joel B C**<br>
-> 📅 **Year:** 2025<br>
-> 🌐 **Purpose:** Build an accessible and customizable Tabbar component in Vue 3, emulating browser behavior with enhanced interaction and animation.<br>
+> 🎓 **Project by Aaron Joel B C**
+> 📅 **Year:** 2025
+> 🌐 **Purpose:** Build an accessible and customizable Tabbar component in Vue 3, emulating browser behavior with enhanced interaction and animation.
 
 ---
 
@@ -56,6 +56,8 @@ dragTabAction(event, id) {
     `;
   };
 }
+![[src\assets\props\drag-n-drop.gif]]
+
 ```
 
 ### 🧩 Tab Types with Icons
@@ -190,28 +192,10 @@ src/
 
 ---
 
-## Project Setup
-
-```sh
-npm install
-````
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License**.
 
+---
 
+Let me know if you'd like a downloadable `README.md` file or want to add diagrams/screenshots.
