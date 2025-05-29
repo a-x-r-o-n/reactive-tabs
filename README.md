@@ -3,10 +3,10 @@
 
 ### 🛠️ Feature-Rich Tab Management System using Vue.js 3
 
-> **Author:** Aaron Joel B C
-> **Role:** Incubation Trainee
-> **Division:** Zoho Analytics - Client Framework, Zoho Corporation
-> **Year:** 2025
+- **Author:** Aaron Joel B C
+- **Role:** Incubation Trainee
+- **Division:** Zoho Analytics - Client Framework, Zoho Corporation
+- **Year:** 2025
 
 ---
 
