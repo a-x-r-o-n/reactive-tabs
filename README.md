@@ -1,12 +1,3 @@
-Here's the complete and **visually refreshing `README.md` file** that combines:
-
-1. ✅ Your **Vue 3 setup instructions**
-2. ✅ A **professional project header** with badges and overview
-3. ✅ A full markdown-based conversion of your LaTeX documentation, rewritten for clarity, visuals, and GitHub friendliness.
-
----
-
-````markdown
 # Reactive-Tabs
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -237,6 +228,4 @@ src/
 
 This project is licensed under the **MIT License**.
 
----
 
-Let me know if you'd like a downloadable `README.md` file or want to add diagrams/screenshots.
