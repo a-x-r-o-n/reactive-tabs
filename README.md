@@ -15,11 +15,11 @@ A modern, drag-and-drop-enabled, keyboard-accessible Tabbar component inspired b
 
 ---
 
-- > 🎓 **Project by Aaron Joel B C**
-- > 🧪 **Internship:** Zoho Analytics - Client Framework
-- > 🏢 **Company:** Zoho Corporation
-- > 📅 **Year:** 2025
-- > 🌐 **Purpose:** Build an accessible and customizable Tabbar component in Vue 3, emulating browser behavior with enhanced interaction and animation.
+> 🎓 **Project by Aaron Joel B C**<br>
+> 🧪 **Internship:** Zoho Analytics - Client Framework
+> 🏢 **Company:** Zoho Corporation
+> 📅 **Year:** 2025
+> 🌐 **Purpose:** Build an accessible and customizable Tabbar component in Vue 3, emulating browser behavior with enhanced interaction and animation.
 
 ---
 
