@@ -1,4 +1,3 @@
----
 
 ## 🌟 Advanced Tabbar Component
 
