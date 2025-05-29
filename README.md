@@ -56,9 +56,10 @@ dragTabAction(event, id) {
     `;
   };
 }
-![[src\assets\props\drag-n-drop.gif]]
+
 
 ```
+![[src\assets\props\drag-n-drop.gif]]
 
 ### 🧩 Tab Types with Icons
 
