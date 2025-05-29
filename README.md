@@ -59,7 +59,7 @@ dragTabAction(event, id) {
 
 
 ```
-![[src\assets\props\drag-n-drop.gif]]
+!{drag-n-drop}[src\assets\props\drag-n-drop.gif]
 
 ### 🧩 Tab Types with Icons
 
