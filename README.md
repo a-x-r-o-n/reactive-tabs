@@ -94,6 +94,9 @@ toggleTabOverflowDialog() {
   }
 }
 ```
+---
+![drag-n-drop](./src/assets/props/overflow-drop.gif)
+
 
 ---
 
@@ -136,6 +139,8 @@ cancelDialogBox() {
   }
 }
 ```
+---
+![drag-n-drop](./src/assets/props/main-drop.gif)
 
 ---
 
