@@ -15,8 +15,8 @@ A modern, drag-and-drop-enabled, keyboard-accessible Tabbar component inspired b
 
 ---
 
-> 🎓 **Project by Aaron Joel B C**
-> 📅 **Year:** 2025
+> 🎓 **Project by Aaron Joel B C**<br>
+> 📅 **Year:** 2025<br>
 > 🌐 **Purpose:** Build an accessible and customizable Tabbar component in Vue 3, emulating browser behavior with enhanced interaction and animation.
 
 ---
